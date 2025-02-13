@@ -864,27 +864,16 @@
   </main>
 
 
-
-
-
-
-  <!--
-    - custom js link
-  -->
   <script src="./assets/js/script.js"></script>
 
-  <!--
-    - ionicon link
-  -->
+ 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-  <!-- Add EmailJS SDK before your closing body tag -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
   <script type="text/javascript">
-    // Initialize EmailJS with your public key
-    emailjs.init("88GS7osqky4Laa-jB"); // Replace with your actual public key
+    emailjs.init("88GS7osqky4Laa-jB"); 
 
     function sendEmail(e) {
         e.preventDefault();
@@ -917,7 +906,7 @@
   </script>
 
   <script>
-  // Add this code before the closing </body> tag, after your other scripts
+  
 
   document.addEventListener('DOMContentLoaded', function() {
     const filterButtons = document.querySelectorAll('[data-filter-btn]');
